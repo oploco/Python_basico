@@ -54,10 +54,9 @@ class calculadora():
         except:
             print('error')
 
-
 calc=calculadora
-print(calc.suma.__name__,calc.suma(2.3,2.5,3))
-calc.resta(5.3,1)
+print(calc.suma.__name__,calc.suma(2,2,3))
+calc.resta(5,1)
 calc.multiplica(3,7)
 calc.division(6,2)
 
