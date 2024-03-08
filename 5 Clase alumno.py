@@ -20,3 +20,9 @@ for i in range(int(cuantos)):
 
 
 print(estudiantes)
+
+i=1
+for al in estudiantes:
+    i+=1
+    print(f'Alumno {i} {al.nombre} {al.apellido}' )
+
