@@ -1,3 +1,3 @@
 README del curso
 
-modificado para probar variables
+modificado para probar batch
