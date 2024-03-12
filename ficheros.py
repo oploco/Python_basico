@@ -1,8 +1,11 @@
 f = open('primer fichero.txt', 'a')
+#with open('primer fichero.txt', 'a') as f:
 
 try:
     def escribir(values):
+        ''' Escribe en fichero '''
         f = open('primer fichero.txt', 'a')
+        #with open('primer fichero.txt', 'a') as f:
 
         #if type(value) == 'dict':  no furula
         if isinstance(values, dict):
