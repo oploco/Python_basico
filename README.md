@@ -1,3 +1,3 @@
 README del curso
 
-modificado para probar el commit
+modificado para probar variables
