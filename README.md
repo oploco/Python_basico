@@ -1,3 +1,3 @@
 README del curso
 
-modificado para probar batch
+modificado para probar batch con hora
