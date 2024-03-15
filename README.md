@@ -1,3 +1,4 @@
 README del curso
+000
 
-modificado para probar batch con fecha y hora
+modificado para probar batch 15/03
