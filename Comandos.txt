@@ -1,0 +1,66 @@
+git init
+git config --global user.email "omarp78@gmail.com"
+git add *
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/oploco/Python_basico
+git push -u origin main
+
+
+
+## PARA SUBIR FICHERO ##
+git add *
+git commit -m "primera carga de ficheros"
+git push
+
+######################## DJANGO ##################################
+### instalar Django
+py -m pip install Django
+
+
+#ver si Django está instalado
+django-admin --version
+
+##################
+## Arrancar server
+cd C:\sw\proyecto_pools\django_pools_env\mysite
+
+python manage.py runserver
+
+##################
+# arrancar env
+cd C:\sw\proyecto_pools\django_pools_env
+
+.\Scripts\activate.bat
+
+
+##### NUEVO PROYECTO
+**Preparar el entorno
+cd c:\sw
+mkdir proyecto_agenda
+cd proyecto_agenda
+
+python -m venv django_agenda_env
+
+* Nota: Es un buen momento para ver qué ha hecho este comando en la carpeta C:\sw\proyecto_pools\django_pools_env a través del explorador de Windows
+
+cd django_agenda_env
+
+.\Scripts\activate.bat
+
+* 	instalamos django
+pip install django
+
+
+* Creamos un proyecto
+django-admin startproject agendapersonal
+cd agendapersonal
+
+* Ejecutamos el servidor
+python manage.py runserver
+
+*Creamos app
+python manage.py startapp contacts
+
+* instalamos cliente MySql
+pip install mysqlclient
